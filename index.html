@@ -1,0 +1,305 @@
+</style>
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0px;
+}
+body {
+	min-width: 320px;
+	background: black;
+}
+section {
+	position: relative;
+	margin: 0px auto;
+	width: auto;
+}
+.page-break {
+	position: absolute;
+	top: 1078px;
+	width: 100%;
+	height: 0px;
+	border-bottom: 1px dotted black;
+	display: none;
+}
+article {
+	margin: 0px auto 10px auto;
+	padding: 36px;
+	width: 100%;
+	background: white;
+}
+table.psnl-info {
+	padding: 10px;
+	width: 100%;
+}
+table.psnl-info td {
+	width: 33.33%;
+	word-break: break-all;
+}
+/*  author: Jenny HOU */
+/* original codepen project: https://codepen.io/c53hzn/pen/PgayKq */
+.rsm-header {
+	margin: 0px 10px;
+}
+.rsm-header h2 {
+	margin: 0px;
+}
+.rsm-header hr {
+	margin: 0px 0px 10px 0px;
+	border: 1px solid black;
+}
+.rsm-cmpnt {
+	padding: 0px 10px 10px 10px;
+}
+.rsm-cmpnt p {
+	margin: 0px;
+}
+/*  author: Jenny HOU */
+/* original codepen project: https://codepen.io/c53hzn/pen/PgayKq */
+.rsm-cmpnt-top {
+	margin: 0px auto 6px auto;
+	display: flex;
+}
+.rsm-cmpnt-top div {
+	flex: 1;
+	font-weight: bold;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.font-10 {
+	font-size: 10px;
+}
+.font-20 {
+	font-size: 20px;
+}
+/*  author: Jenny HOU */
+/* original codepen project: https://codepen.io/c53hzn/pen/PgayKq */
+.rsm-cmpnt-mid {
+	margin: 0px auto 6px auto;
+	font-size: 14px;
+	font-style: italic;
+}
+.rsm-cmpnt-btm ul {
+	margin: 0px auto 6px auto;
+	padding-left: 25px;
+	list-style: circle;
+}
+.rsm-cmpnt-btm li {
+	font-size: 14px;
+}
+#addDropBtn {
+	position: fixed;	
+	font-size: 18px;
+	height: 20px;
+	user-select: none;
+	cursor: pointer;
+	display: none;
+}
+#dropBtn,#addBtn {
+	color: black;
+	width: 20px;
+	height: 20px;
+	line-height: 16px;
+	border: 1px solid black;
+	display: inline-block;
+}
+/*  author: Jenny HOU */
+/* original codepen project: https://codepen.io/c53hzn/pen/PgayKq */
+.cmpnt-btn {
+	background: #d8d8d8;
+}
+.cmpnt-p-btn {
+	background: #eaeaea;
+}
+.cmpnt-li-btn {
+	background: white;
+}
+
+@media (min-width: 768px) {
+	section {
+		margin: 50px auto;
+		width: 792px;
+	}
+	.page-break {
+		display: block;
+	}
+}
+</style>
+<section title="This is a sample resume. Click to edit. Use Tab key to go to next input box. You can add/remove any element you like. Also pay attention to the page break. Press CTRL+P to save as PDF!">
+	<div class="page-break"></div>
+	<article>
+		<table class="psnl-info">
+			<tbody>
+				<tr>
+					<td rowspan="2" class="text-left" contenteditable>Tel: (917)285-7362</td>
+					<td class="text-center font-20" contenteditable>Harold Finch</td>
+					<td rowspan="2" class="text-right" contenteditable>email: haroldbird233@gmail.com</td>
+				</tr>
+				<tr>
+					
+					<td class="text-center font-20" contenteditable>"Harry"</td>
+					
+				</tr>
+			</tbody>
+		</table>
+		<div class="rsm-header">
+			<h2 contenteditable>Work Experience</h2>
+			<hr>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>N/A</div>
+					<div contenteditable>Billionare</div>
+				</div>
+				<div class="text-right font-10">
+					<div contenteditable>??? - 2016</div>
+					<div contenteditable>New York</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-mid" contenteditable>
+				His source of wealth is unknown yet reliable.
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Develop an all-seeing AI:</p>
+				<ul>
+					<li contenteditable>Taught the Machine to save everyone</li>
+					<li contenteditable>Taught the Machine how to play chess</li>
+				</ul>
+				<p contenteditable>Save the irrelevant numbers:</p>
+				<ul>
+					<li contenteditable>Identify the irrelevant number as victim or perpetrator</li>
+					<li contenteditable>Saved everyone</li>
+					<li contenteditable>Failed to save himself</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>Universal Heritage Insurance</div>
+					<div contenteditable>Insurance Underwriter</div>
+				</div>
+				<div class="text-right font-10">
+					<div contenteditable>??? - 2016</div>
+					<div contenteditable>New York</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-mid" contenteditable>
+				An insurance company.
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Work as an investigator:</p>
+				<ul>
+					<li contenteditable>Approach families of the numbers and collect relevant information, sometimes provide anonymous financial aid</li>
+				</ul>
+				<p contenteditable>Save the irrelevant numbers:</p>
+				<ul>
+					<li contenteditable>Identify the irrelevant number as victim or perpetrator</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>IFT, Inc.</div>
+					<div contenteditable>Software Engineer</div>
+				</div>
+				<div class="text-right font-10">
+					<div contenteditable>1983 - 2011</div>
+					<div contenteditable>New York</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-mid" contenteditable>
+				This company receives a reputation as a world leader in computer technology.
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Work as a low-level employee:</p>
+				<ul>
+					<li contenteditable>Pretend to be inefficient in coding</li>
+					<li contenteditable>Constantly disappearing from work</li>
+				</ul>
+				<p contenteditable>Secretly being a high level executive:</p>
+				<ul>
+					<li contenteditable>Hired someone secretly(219)</li>
+					<li contenteditable>Fired himself secretly(102)</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="rsm-header">
+			<h2 contenteditable>Education</h2>
+			<hr>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>Massachusetts Institute of Technology</div>
+					<div contenteditable>Egineering</div>
+				</div>
+				<div class="text-right font-10">
+					<div contenteditable>1980 - 1983</div>
+					<div contenteditable>Cambridge, MA</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Education highlights:</p>
+				<ul>
+					<li contenteditable>Dropout</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rsm-header">
+			<h2 contenteditable>Professional Skills</h2>
+			<hr>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>Hacking skills</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>C language, etc</p>
+				<ul>
+					<li contenteditable>Instructed a student on building a large program once in an undercover mission when he pretended to be a math teacher</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>Financial knowledge</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Expert in stock market manipulation</p>
+				<ul>
+					<li contenteditable>Short sold a medical company's stocks</li>
+					<li contenteditable>Prevented a financial crisis in a stock exchange</li>
+				</ul>
+			</div>
+		</div>
+		<div class="rsm-cmpnt">
+			<div class="rsm-cmpnt-top">
+				<div class="text-left">
+					<div contenteditable>People skills</div>
+				</div>
+			</div>
+			<div class="rsm-cmpnt-btm">
+				<p contenteditable>Compasion and selfless love</p>
+				<ul>
+					<li contenteditable>"Human-interaction" is said to not be his best strenth, however Finch has demonstrated his kindness and caring for all man-kind, including those posing against him</li>
+				</ul>
+			</div>
+		</div>
+	</article>
+</section>
